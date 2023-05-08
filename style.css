@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+
 body{
     background: rgba(91,0,139,255);
     background: linear-gradient(0deg,
-    rgb(87, 2, 132) 0%,
-     rgb(127, 1, 152) 0%,
-     rgb(86, 0, 117) 100%
+    rgb(39, 1, 59) 0%,
+     rgb(43, 3, 65) 0%,
+     rgb(91,0,139) 100%
     );
     background-repeat: no-repeat;
     height: 100%;
+    text-align: center;
+   font-family: 'Abel', sans-serif;
 }
 
 .pfp {
@@ -26,14 +33,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* font-family: 'arca_majora_3heavy';
-    src: url('arcamajora3-heavy-webfont.woff2') format('woff2'),
-        url('arcamajora3-heavy-webfont.woff') format('woff'); */
+   
     font-weight: normal;
     font-style: normal;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.37);
+    color: rgba(245, 243, 247, 0.673);
 }
+
 
 a {
     display: flex;
@@ -41,16 +47,16 @@ a {
     justify-content: center;
     border: 3px solid black;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.949);
+    background-color: rgba(247, 243, 243, 0.949);
     font-size: 2rem;
-    color: rgba(75, 1, 114, 0.684);
+    color: rgba(71, 0, 119, 0.822);
     margin: 30px;
     padding: 30px;
 }
 
 a:hover {
-    transform: scale(1.02);
-    box-shadow: 5px 5px 10px 2px rgba(68, 19, 68, 0.865);
+    transform: scale(1.03);
+    box-shadow: 5px 5px 10px 2px rgba(16, 2, 26, 0.865);
 }
 
 #footer {
